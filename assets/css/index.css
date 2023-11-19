@@ -1,0 +1,13 @@
+@import './preflight.css';
+@layer preflight {
+	html {
+		@apply bg-background text-black;
+	}
+	html,
+	body {
+		@apply w-full h-full antialiased overflow-hidden;
+	}
+	body {
+		@apply min-h-screen font-sans;
+	}
+}
